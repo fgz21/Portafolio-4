@@ -1,0 +1,298 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background: #000;
+}
+
+.nav-link{
+	color: #fff;
+}
+
+.nav-link:hover{
+	color: 	#00FFFF;
+}
+
+
+/* another */
+
+/* @media */
+
+body{margin-top:20px;}
+/* About Me 
+---------------------*/
+@media (max-width: 991px) {
+  .about-text {
+    margin-top: 40px;
+  }
+}
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #00ffff;
+}
+@media (max-width: 767px) {
+  .about-text h3 {
+    font-size: 35px;
+  }
+}
+.about-text h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .about-text h4 {
+    font-size: 18px;
+  }
+}
+.about-text p {
+  font-size: 18px;
+  color: #fff;
+}
+.about-text p mark {
+  font-weight: 600;
+
+}
+.about-text .btn-bar {
+  padding-top: 8px;
+}
+.about-text .btn-bar a {
+  min-width: 150px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.about-list {
+  padding-top: 10px;
+}
+.about-list .media {
+  padding: 5px 0;
+}
+.about-list label {
+  color: #fff;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
+.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.about-img {
+  box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
+  padding: 10px;
+}
+
+/* img */
+
+.img-1{
+	border-radius: 150px;
+}
+
+/* img */
+
+@media (max-width: 991px) {
+  .about-img {
+    margin-top: 30px;
+  }
+}
+
+.counter-section {
+  padding: 40px 20px;
+}
+.counter-section .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.counter-section .count {
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+.counter-section p {
+  font-weight: 500;
+  margin: 0;
+}
+.theme-color {
+    color: #00FFFF;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.gray-bg {
+    background-color: #ebf4fa;
+}
+.px-btn.theme {
+     background: transparent;
+    color: #fff;
+    border: 2px solid #00ffff;
+}
+.px-btn {
+    padding: 0 20px;
+    line-height: 42px;
+    border: 2px solid transparent;
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.px-btn.theme-t {
+    background: transparent;
+    border: 2px solid #00ffff;;
+    color: #fff;
+}
+
+.px-btn.theme-t:hover {
+	background: #fff;
+	color: #000;
+}
+
+
+.px-btn:hover {
+	background: #fff;
+	color: #000;
+}
+
+
+/* @media */
+
+
+
+
+
+/* projects Galerie */
+
+.container-2{
+	width:90%;
+	margin:10px auto;
+}
+
+
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item{
+	width:100%
+}
+
+.portfolio-item  p{
+	color: #fff;
+}
+
+
+img{
+	margin-bottom: 20px;
+	margin-top: 15px;
+	border: solid #fff;
+}
+
+
+
+.container-2 h3{
+	color: #00ffff;
+
+}
+
+.container-2 h4{
+	margin-bottom: 50px;
+	color: #00ffff;
+}
+
+/* projects Galerie */
+
+.container-3 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin: 0px;
+}
+
+.heading {
+    cursor: pointer;
+}
+
+.callback {
+  	height: 330px;
+  	width: 600px;
+    background: #007CC7;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.callback .fas.fa-headphones {
+    font-size: 30px;
+    color: #00ffff;
+    padding-bottom: 10px;
+}
+
+.callback .h-1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.callback .p-1 {
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+a{
+	color: #00ffff
+}
+
+i{
+  cursor: pointer;
+}
+
+/* contact info */
