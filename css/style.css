@@ -20,7 +20,7 @@ body{
 
 /* another */
 
-/* @media */
+/* start @media */
 
 body{margin-top:20px;}
 /* About Me 
@@ -187,13 +187,13 @@ body{margin-top:20px;}
 }
 
 
-/* @media */
+/* finish @media */
 
 
 
 
 
-/* projects Galerie */
+/* start projects Galerie */
 
 .container-2{
 	width:90%;
@@ -244,7 +244,7 @@ img{
 	color: #00ffff;
 }
 
-/* projects Galerie */
+/* finish projects Galerie */
 
 .container-3 {
     min-height: 100vh;
